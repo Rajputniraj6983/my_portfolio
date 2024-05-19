@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_portpolio/Constant.dart';
-import 'package:my_portpolio/main_screen.dart';
+import 'package:my_portpolio/screens/home/home_screen.dart';
+
 
 
 void main() {
@@ -29,10 +30,7 @@ class MyApp extends StatelessWidget {
           bodyText2: const TextStyle(color: bodyTextColor),
         ),
       ),
-      home: const Banner(
-          message: 'Portfolio',
-          location: BannerLocation.topEnd,
-          child: MainScreen()),
+      home: const HomeScreen(),
     );
   }
 }
