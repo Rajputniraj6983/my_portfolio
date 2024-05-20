@@ -81,7 +81,7 @@ class SideMenu extends StatelessWidget {
                               ),
                             ),
                             SizedBox(width: defaultpadding / 2),
-                            SvgPicture.asset("assets/icons/download (3).png")
+                            SvgPicture.asset("assets/icons/download.svg")
                           ],
                         ),
                       ),
@@ -94,17 +94,17 @@ class SideMenu extends StatelessWidget {
                           Spacer(),
                           IconButton(
                             onPressed: () {},
-                            icon: SvgPicture.asset("assets/icons/download.png"),
+                            icon: SvgPicture.asset("assets/icons/github.svg"),
                           ),
                           IconButton(
                             onPressed: () {},
                             icon: SvgPicture.asset(
-                                "aassets/icons/download (1).png"),
+                                "assets/icons/linkedin.svg"),
                           ),
                           IconButton(
                             onPressed: () {},
                             icon: SvgPicture.asset(
-                                "assets/icons/download (2).png"),
+                                "assets/icons/twitter.svg"),
                           ),
                           Spacer(),
                         ],

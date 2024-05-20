@@ -81,7 +81,7 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
             SizedBox(height: defaultpadding / 2),
             LinearProgressIndicator(
               value: value,
-              color: secondaryColor,
+              color: primaryColor,
               backgroundColor: darkColor,
             ),
           ],
