@@ -42,7 +42,7 @@ class SideMenu extends StatelessWidget {
                     Coding(),
                     Knowledges(),
                     Divider(),
-                    SizedBox(height: defaultpadding / 1.9),
+                    SizedBox(height: defaultpadding / 2),
                     //now we need animated it
                     // Row(
                     //   children: [
